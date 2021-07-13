@@ -7,7 +7,16 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+rand = "0.8.4"
 
 [[bin]]
 name = "abc"
 path = "src/abc/main.rs"
+
+[[bin]]
+name = "guessing_game"
+path = "src/guessing_game/main.rs"
+
+[[bin]]
+name = "practice_1"
+path = "src/practice_1/main.rs"
